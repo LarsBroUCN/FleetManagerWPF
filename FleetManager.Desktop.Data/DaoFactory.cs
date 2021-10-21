@@ -9,7 +9,7 @@ namespace FleetManager.Desktop.Data
         {
             Type dataContextType = dataContext.GetType();
 
-            // TODO: (Step 3) add check for the sql server datacontext interface type and return the correct dao
+            // TODO: (Step 3) add check for the rest datacontext interface type and return the correct dao
 
             if (typeof(ITypedDataContext).IsAssignableFrom(dataContextType))
             {
