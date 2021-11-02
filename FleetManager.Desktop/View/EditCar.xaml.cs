@@ -38,6 +38,7 @@ namespace FleetManager.Desktop.View
             _model.Brand = brandTextBox.Text;
             _model.Mileage = int.Parse(mileageTextBox.Text);
             _model.Location = (LocationModel)locationsComboBox.SelectedItem;
+            
             DialogResult = true;
         }
 
